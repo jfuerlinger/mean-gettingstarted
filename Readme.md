@@ -4,6 +4,8 @@
 
 ## Installed Modules
 
+* nodemon
+Recognizes file system changes and restarts the NodeJS application automatically.
 * body-parser
 * express
 * mongoose
