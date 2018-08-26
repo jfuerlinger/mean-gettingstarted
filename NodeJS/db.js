@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+mongoose.set('useFindAndModify', false);
+
 mongoose.connect('mongodb://jfuerlinger.documents.azure.com:10255/<databasename>?ssl=true', {
     auth: {
       user: 'jfuerlinger',
